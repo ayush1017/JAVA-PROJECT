@@ -49,42 +49,42 @@ String name;
    questions[0][3] = "JDK";
    questions[0][4] = "JRE";
 
-   questions[1][0] = "What is the return type of the hashCode() method in the Object class?";
-   questions[1][1] = "int";
-   questions[1][2] = "Object";
-   questions[1][3] = "long";
-   questions[1][4] = "void";
+   questions[1][0] = "which film got the Oscars for best Original song?";
+   questions[1][1] = "RRR";
+   questions[1][2] = "Nomadland";
+   questions[1][3] = "Wednesday";
+   questions[1][4] = "Money Heist";
 
-   questions[2][0] = "Which package contains the Random class?";
-   questions[2][1] = "java.util package";
-   questions[2][2] = "java.lang package";
-   questions[2][3] = "java.awt package";
-   questions[2][4] = "java.io package";
+   questions[2][0] = "Who was the second man to step on the moon?";
+   questions[2][1] = "Buzz Aldrin";
+   questions[2][2] = "Yuri Gagarin";
+   questions[2][3] = "Neil Armstrong";
+   questions[2][4] = "Michel Collins";
 
-   questions[3][0] = "An interface with no fields or methods is known as?";
-   questions[3][1] = "Runnable Interface";
-   questions[3][2] = "Abstract Interface";
-   questions[3][3] = "Marker Interface";
-   questions[3][4] = "CharSequence Interface";
+   questions[3][0] = "Recently Which Country Became The 31st country of NATO?";
+   questions[3][1] = "Finland";
+   questions[3][2] = "Belarus";
+   questions[3][3] = "England";
+   questions[3][4] = "Ireland";
 
-   questions[4][0] = "In which memory a String is stored, when we create a string using new operator?";
-   questions[4][1] = "Stack";
-   questions[4][2] = "String memory";
-   questions[4][3] = "Random storage space";
-   questions[4][4] = "Heap memory";
+   questions[4][0] = "Complete this Film Line _____ Bahubali Yani Mein?";
+   questions[4][1] = "Amrendra";
+   questions[4][2] = "Dharmendra";
+   questions[4][3] = "Mahendra";
+   questions[4][4] = "Surendra";
 
-   questions[5][0] = "Which of the following is a marker interface?";
-   questions[5][1] = "Runnable interface";
-   questions[5][2] = "Remote interface";
-   questions[5][3] = "Readable interface";
-   questions[5][4] = "Result interface";
+   questions[5][0] = "Who is known as the Father of Indian Space program.?";
+   questions[5][1] = "Vikram Sarabhai";
+   questions[5][2] = "APJ Abdul Kalam";
+   questions[5][3] = "Homi Bhabha";
+   questions[5][4] = "CV Raman";
 
    answers[0][1] = "JDB";
-   answers[1][1] = "int";
-   answers[2][1] = "java.util package";
-   answers[3][1] = "Marker Interface";
-   answers[4][1] = "Heap memory";
-   answers[5][1] = "Remote interface";
+   answers[1][1] = "RRR";
+   answers[2][1] = "Buzz Aldrin";
+   answers[3][1] = "Finland";
+   answers[4][1] = "Amrendra";
+   answers[5][1] = "Vikram Sarabhai";
 
 
     //RadioButtons
@@ -192,7 +192,7 @@ else if (ae.getSource() == Submit) {
         }
     }
     setVisible(false);
-  //  new Score(username, score);
+   new Score(name, score);
 
 }
         
